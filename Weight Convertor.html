@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weight Calculator</title>
+        <style>
+            body{
+                margin:0px;
+                padding: 0px;
+                text-align: center;
+                background: linear-gradient(to right, rgb(180, 43, 78), #1F1C18);
+            }
+            input{
+                padding: 15px;
+                border-radius: 10px;
+            }
+            
+            h1 {
+                background: purple;
+                color: white;
+                margin: 0;
+                padding: 10px 100px;
+                text-transform: uppercase;
+                font-size: 18px;
+                font-weight: normal;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+  
+            .color
+            {
+                border: 1px solid black;
+                color: white;
+                background-color: black;
+                margin: 15px 50px 5px 50px;
+                padding: 5px;
+                border-radius: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .color1
+            {
+                border: 1px solid black;
+                color: white;
+                background-color: grey;
+                margin: 15px 50px 5px 50px;
+                padding: 5px;
+                border-radius: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .color2
+            {
+                border: 1px solid black;
+                color: black;
+                background-color:honeydew;
+                margin: 15px 50px 5px 50px;
+                padding: 5px;
+                border-radius: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #container {
+                height: 600px;
+                width: 400px;
+                margin: 100px auto;
+                background: #f7f7f7;
+                box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+                border-radius: 20px;
+            }
+            button {
+                text-transform: uppercase;
+                font-weight: bold;
+                display: block;
+                margin: 30px auto;
+                background: #AD133A;
+                border-radius: 5px;
+                width: 200px;
+                height: 50px;
+                font-size: 17px;
+                color: white;
+             }
+  
+            button:hover {
+                background: #4c2827;
+                border-bottom-color: #111;
+            }
+  
+            button:active {
+                position: relative;
+                top: 1px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div class="class">
+            <h1>Weight Converter</h1>
+            <br><br>
+            <input id="kgInput" type="text" placeholder="Enter kilograms......" size="40">
+            <br>
+            <button id="btn1">Go</button>
+
+            <div class="color">
+                <h4>Pounds:</h4>
+                <div id="lbsOutput"></div>
+            </div>
+            
+            <div class="color1">
+                <h4>Ounces:</h4>
+                <div id="ozOutput"></div>
+            </div>
+
+            <div class="color2">
+                <h4>Grams:</h4>
+                <div id="gramsOutput"></div>
+            </div>
+            </div>
+        </div>
+
+
+        <script src="C:\Users\BHANU PRASAD\Desktop\weight1.js"></script>
+            
+    </body>
+</html>
